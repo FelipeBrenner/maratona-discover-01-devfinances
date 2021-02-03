@@ -159,6 +159,7 @@ header {
 }
 
 /* Table ==================================================== */
+
 #transaction {
     display: block;
     width: 100%;
@@ -182,7 +183,7 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-    background: white;
+    background: none;
     
     font-weight: normal;
     padding: 1rem 2rem;
