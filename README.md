@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O dev.finances é uma aplicação de controle financeiro desenvolvida durante a Maratona Discover #01 da Rocketseat, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+O dev.finances é uma aplicação de controle financeiro desenvolvida durante a Maratona Discover #01 da Rocketseat, realizada durante os dias 14, 21, 28 de janeiro e 4 de fevereiro de 2021, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
 ## 🔖 Layout
 
