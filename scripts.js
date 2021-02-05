@@ -95,6 +95,19 @@ const DOM = {
         document
             .getElementById('totalDisplay')
             .innerHTML = Utils.formatCurrency(Transaction.total())
+
+        if(Transaction.total() < 0) {
+            document
+                .querySelector('.card.total')
+                .classList
+                .add('negative')
+        }
+        else {
+            document
+                .querySelector('.card.total')
+                .classList
+                .remove('negative')
+        }
     },
 
     clearTransactions() {
