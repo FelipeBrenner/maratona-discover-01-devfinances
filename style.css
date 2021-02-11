@@ -102,89 +102,6 @@ button:hover {
     opacity: 1;
 }
 
-/* Change Theme ============================================== */
-
-#change-theme {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-#change-theme label {
-    width: 50px;
-    height: 26px;
-    background-color: #F0F0F7;
-    border-radius: 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-#change-theme #ball {
-    width: 22px;
-    height: 22px;
-    background-color: #32264D;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    transition: transform 0.2s linear;
-}
-
-#change-theme #checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-#change-theme #checkbox:checked + label #ball {
-    transform: translateX(24px);
-}
-
-.theme-dark {
-  background-color: #202024;
-}
-
-.theme-dark header {
-  background-color: #121214;
-}
-
-.theme-dark .card {
-  background-color: #1c1c1c;
-  color: #f0f0f5;
-}
-
-.theme-dark .card.total {
-  background-color: #04D361;
-  color: #efefef;
-}
-
-.theme-dark .card.total-expense {
-  background-color: #E92929;
-}
-
-.theme-dark #form h2 {
-  color: #f0f0f5;
-}
-
-.theme-dark #form form input {
-  color: #f0f0f5;
-  background-color: #1c1c1c;
-}
-
-.theme-dark #form .input-group small {
-  color: #f0f0f5;
-}
-
-.theme-dark footer {
-  color: #f0f0f5;
-}
-
-.theme-dark .modal-overlay .modal {
-  background-color: #202024;
-}
-
 /* Header ==================================================== */
 
 header {
@@ -386,6 +303,106 @@ footer {
     color: var(--dark-blue);
 
     opacity: 0.6;
+}
+
+/* Change Theme ============================================== */
+
+#change-theme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#change-theme label {
+    width: 50px;
+    height: 26px;
+    background-color: #F0F0F7;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#change-theme #ball {
+    width: 22px;
+    height: 22px;
+    background-color: #32264D;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s linear;
+}
+
+#change-theme #checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+#change-theme #checkbox:checked + label #ball {
+    transform: translateX(24px);
+}
+
+.theme-dark {
+  background-color: #353538;
+}
+
+.theme-dark a {
+    color: #0d8f47;
+}
+
+.theme-dark a:hover {
+    color: #10b359;
+}
+
+.theme-dark button {
+    background: #0d8f47;
+}
+
+.theme-dark button:hover {
+    background: #10b359;
+}
+
+.theme-dark header {
+  background-color: #202024;
+}
+
+.theme-dark .card {
+  background-color: #3f3c3c;
+  color: #f0f0f5;
+}
+
+.theme-dark .card.total {
+    background-color: #0d8f47;
+    color: #efefef;
+}
+
+.theme-dark .card.total.negative {
+  background-color: #E4443F;
+  color: #efefef;
+}
+
+.theme-dark #form h2 {
+  color: #f0f0f5;
+}
+
+.theme-dark #form form input {
+  color: #f0f0f5;
+  background-color: #353538;
+}
+
+.theme-dark #form .input-group small {
+  color: #f0f0f5;
+}
+
+.theme-dark footer {
+  color: #f0f0f5;
+}
+
+.theme-dark .modal-overlay .modal {
+  background-color: #202024;
 }
 
 /* Responsive ================================================ */
